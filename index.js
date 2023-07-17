@@ -3,7 +3,7 @@ function evaluateByMetric() {
     const weight = parseFloat(document.getElementById("weight-kg").value);
     // console.log(height, weight);
     calculateBMI(height, weight, 0);
-    console.log(bmi);
+    // console.log(bmi);
 }
 
 function evaluateByImperial() {
@@ -13,7 +13,7 @@ function evaluateByImperial() {
     const weight = parseFloat(document.getElementById("weight-lb").value);
     // console.log(height_ft, height_in, weight);
     calculateBMI(height, weight, 1);
-    console.log(bmi);
+    // console.log(bmi);
 }
 
 function calculateBMI(height, weight, params) {
