@@ -79,6 +79,6 @@ function calculateBMI(height, weight, params) {
     if (!isNaN(bmi) || weightCategory != undefined) {
         document.getElementById("results").style.display = "flex";
         document.getElementById("alert").innerHTML = `Your BMI is <b>${bmi}</b>, indicating your weight is in the <b>${weightCategory}</b> category for adults of your height.`;
-        window.location = "index.html#results";
+        window.location.hash = "results";
     }
 }    
